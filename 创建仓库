@@ -1,0 +1,7 @@
+echo "# -" >> README.md  # 创建README文件
+git init                 # 初始化本地Git仓库
+git add README.md        # 把README加入暂存区
+git commit -m "first commit"  # 提交到本地仓库
+git branch -M main       # 把默认分支重命名为main（GitHub标准）
+git remote add origin https://github.com/buzhid159/-.git  # 绑定远程仓库
+git push -u origin main  # 第一次推送，把本地main分支推到远程
